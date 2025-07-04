@@ -2,8 +2,8 @@ class Embed < Formula
   desc "CLI tool for Embeddable API - manage database connections, environments, and dashboards"
   homepage "https://github.com/embeddable-hq/embeddable-cli"
   # GitHub release URL
-  url "https://github.com/embeddable-hq/embeddable-cli/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "7d1f906314e26c1fbe1d85dde3a9267c311fc67082a8c9561a79bf64dd8224e1"
+  url "https://github.com/embeddable-hq/embeddable-cli/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "3c420728ecc6f66647a1adae267c79078c45f4c6445823cbb21a31fc32b3c291"
   
   # For local testing, use:
   # url "file:///Users/eone/projects/embeddable-cli/embeddable-cli-v0.1.0.tar.gz"
