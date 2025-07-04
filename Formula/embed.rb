@@ -1,13 +1,13 @@
 class Embed < Formula
   desc "CLI tool for Embeddable API - manage database connections, environments, and dashboards"
   homepage "https://github.com/embeddable-hq/embeddable-cli"
-  # For local testing, use:
-  url "file:///Users/eone/projects/embeddable-cli/embeddable-cli-v0.1.0.tar.gz"
-  sha256 "06b2ce5eb0d1a367f5fb49b47f6d6a9f18e6cd43c8556b545c24b7553b8138cd"
+  # GitHub release URL
+  url "https://github.com/embeddable-hq/embeddable-cli/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "PLACEHOLDER_SHA256_UPDATE_AFTER_RELEASE"
   
-  # For GitHub release, use:
-  # url "https://github.com/embeddable-hq/embeddable-cli/archive/refs/tags/v0.1.0.tar.gz"
-  # sha256 "GITHUB_RELEASE_SHA256"
+  # For local testing, use:
+  # url "file:///Users/eone/projects/embeddable-cli/embeddable-cli-v0.1.0.tar.gz"
+  # sha256 "06b2ce5eb0d1a367f5fb49b47f6d6a9f18e6cd43c8556b545c24b7553b8138cd"
   license "MIT"
 
   depends_on "node" => :build
@@ -15,7 +15,7 @@ class Embed < Formula
   depends_on "node"
 
   def install
-    system "pnpm", "install", "--frozen-lockfile"
+    system "pnpm", "install"
     system "pnpm", "build"
     
     # Install the CLI
