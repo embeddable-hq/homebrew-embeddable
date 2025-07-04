@@ -3,7 +3,7 @@ class Embed < Formula
   homepage "https://github.com/embeddable-hq/embeddable-cli"
   # GitHub release URL
   url "https://github.com/embeddable-hq/embeddable-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "PLACEHOLDER_SHA256_UPDATE_AFTER_RELEASE"
+  sha256 "cf0f18665fb24c42dee79b10759c5597aa69535ffcd8ecd0cbffa3f62894dfc7"
   
   # For local testing, use:
   # url "file:///Users/eone/projects/embeddable-cli/embeddable-cli-v0.1.0.tar.gz"
